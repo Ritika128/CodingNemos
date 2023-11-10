@@ -1,4 +1,4 @@
-const accessKey = 'GC9mTHZF1vVEG10-pTythcsimSFDQcbY8LXpUr39CVg';
+const accessKey = 'YOUR ACCESS KEY';
 const searchForm = document.querySelector('#SearchForm');
 const searchTerm = document.querySelector('#SearchTerm');
 const searchResult = document.querySelector('.SearchResult');
