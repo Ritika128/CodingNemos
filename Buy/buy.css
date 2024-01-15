@@ -1,0 +1,98 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.buy-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(../../public/gallery/buy4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 238, 54);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  bottom: 30px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 24px 34px; /* Increase the size of the button */
+  cursor: pointer;
+  border: 2px solid rgb(253, 240, 213); /* Change the color of the button border */
+  background-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 0 0 rgb(0, 0, 0), 8px 8px 0 0 rgb(253, 240, 213);
+  transition-duration: 200ms;
+  border-width: 5px;
+  color: rgb(253, 240, 213); /* Change the text color */
+  font-weight: bold;
+  font-size: 27px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn:hover {
+  box-shadow: 5.5px 5.5px rgb(0, 0, 0), 11px 11px 0 0 rgb(253, 240, 213);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.arrow-scroll {
+  position: relative;
+  height: 4rem;
+}
+
+.arrow {
+  border: solid #ebff0d;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  top: 400px;
+  right: 50px;
+  transform: translateX(-50%) rotate(315deg);
+  font-weight: bold;
+}
+
+.arrow:nth-child(2) {
+  animation: arrow1 1.5s ease-in-out infinite;
+}
+
+.arrow:nth-child(3) {
+  animation: arrow2 1.5s ease-in-out infinite;
+}
+
+@keyframes arrow1 {
+  100% {
+    opacity: 0;
+    right: -4%;
+  }
+}
+
+@keyframes arrow2 {
+  100% {
+    opacity: 0;
+    right: -1%;
+  }
+}
