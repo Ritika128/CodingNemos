@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(18, 32, 68);
+    color: #222;
+}
+
+.booklist {
+    width: 90vw;
+    max-width: 50%;
+    margin: 4rem auto;
+    display: grid;
+    gap: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .booklist {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.book {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+.book-container {
+    position: relative;
+    width: 330px;
+    height: 380px;
+    background-color: grey;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.profile-circle {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile-circle .profile-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+/* to give overlay effect, commented for now*/
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82%;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.book:hover .overlay {
+    opacity: 10;
+} */
+
+
+.book img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.book h1 {
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.book h4 {
+    color: white;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    letter-spacing: 5px;
+}
+
+.book button {
+    background-color: rgb(130, 169, 221);
+    color: white;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+}
