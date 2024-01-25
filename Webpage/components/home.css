@@ -1,0 +1,69 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgvideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1 {
+    font-family: "Baskerville (serif)";
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-family: "Brush Script MT (cursive)";
+    font-size: 1.25rem;
+    color: rgb(198, 230, 230);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text p:hover,
+.text p.clicked {
+    color: rgb(94, 181, 225);
+}
+
+.logo {
+    font-family: Bodoni 72;
+    position: absolute;
+    top: -220px;
+    left: -320px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #c9baba;
+}
+
+.userlogo {
+    height: auto;
+    position: absolute;
+    left: 1020px;
+    top: -210px;
+    overflow: visible;
+}
+
+.userlogo:hover path {
+    fill: rgb(226, 186, 239);
+}
