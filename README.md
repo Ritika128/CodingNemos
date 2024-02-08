@@ -99,13 +99,7 @@ Each NFT represents a unique piece of digital art, providing verifiable proof of
 
 ## 💻Usage
 
->Account Creation: Sign up for an account to access your personalized dashboard and manage your profile.
-
-Browsing Artworks: Explore the collection of digital artworks by browsing categories and discovering trending NFTs.
-
-Buying and Selling: Purchase artworks securely using your connected Ethereum wallet or list your own digital creations for sale.
-
-Wallet Management: Connect your wallet to manage your digital assets, view holdings, and execute transactions.
+>Account Creation: Sign up for an account to access your personalized dashboard and manage your profile.Browsing Artworks: Explore the collection of digital artworks by browsing categories and discovering trending NFTs.Buying and Selling: Purchase artworks securely using your connected Ethereum wallet or list your own digital creations for sale.Wallet Management: Connect your wallet to manage your digital assets, view holdings, and execute transactions.
 
 ## 👨‍💻Team Members
 
