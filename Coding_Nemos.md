@@ -41,9 +41,7 @@
 ## 🔗Links
 
 - [GitHub Repository](https://github.com/Ritika128/CodingNemos)
-- [Demo Video]()
-- [Drive Link to Screenshots of your project]()
-- [Hosted Website Link]()
+- [Demo Video](https://drive.google.com/file/d/1yzsukr5fZHFxOuC4-snO4p-7xY8Ue2hq/view?usp=sharing)
 
 
 ## 🤖Tech-Stack
