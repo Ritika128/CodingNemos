@@ -1,0 +1,124 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.sell-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../../public/gallery/sell.jpg?v=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 238, 54);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.create-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    transform: translateX(-50%);
+    padding: 24px 34px;
+    cursor: pointer;
+    border: 2px solid rgb(253, 240, 213);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 0 0 rgb(0, 0, 0), 8px 8px 0 0 rgb(253, 240, 213);
+    transition-duration: 200ms;
+    border-width: 5px;
+    color: rgb(253, 240, 213);
+    font-weight: bold;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.create-btn:hover {
+    box-shadow: 5.5px 5.5px rgb(0, 0, 0), 11px 11px 0 0 rgb(253, 240, 213);
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.sell-btn {
+    position: absolute;
+    bottom: 30px;
+    /* Adjust the distance from the bottom */
+    left: 60%;
+    transform: translateX(-50%);
+    padding: 24px 34px;
+    /* Increase the size of the button */
+    cursor: pointer;
+    border: 2px solid rgb(253, 240, 213);
+    /* Change the color of the button border */
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 0 0 rgb(0, 0, 0), 8px 8px 0 0 rgb(253, 240, 213);
+    transition-duration: 200ms;
+    border-width: 5px;
+    color: rgb(253, 240, 213);
+    /* Change the text color */
+    font-weight: bold;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.sell-btn:hover {
+    box-shadow: 5.5px 5.5px rgb(0, 0, 0), 11px 11px 0 0 rgb(253, 240, 213);
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.sell_arrow-scroll {
+    position: relative;
+    height: 4rem;
+}
+
+.sell_arrow {
+    border: solid #ebff0d;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    transform: translateX(-50%) rotate(135deg);
+    font-weight: bold;
+}
+
+.sell_arrow:nth-child(2) {
+    animation: sell_arrow1 1.5s ease-in-out infinite;
+}
+
+.sell_arrow:nth-child(3) {
+    animation: sell_arrow2 1.5s ease-in-out infinite;
+}
+
+@keyframes sell_arrow1 {
+    100% {
+        opacity: 0;
+        left: -4%;
+    }
+}
+
+@keyframes sell_arrow2 {
+    100% {
+        opacity: 0;
+        left: -0.5%;
+    }
+}

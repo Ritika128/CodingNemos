@@ -1,0 +1,54 @@
+/* home.css */
+.home-bgvideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-text h1 {
+    font-family: "Baskerville (serif)";
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home-text p {
+    font-family: "Brush Script MT (cursive)";
+    font-size: 1.25rem;
+    color: rgb(198, 230, 230);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+.home-logo {
+    font-family: Bodoni 72;
+    position: absolute;
+    top: -85%;
+        left: -45%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #c9baba;
+}
+
+.home-userlogo {
+    height: auto;
+    position: absolute;
+    left: 135%;
+        top: -80%;
+    overflow: visible;
+}
+
+.home-userlogo:hover path {
+    fill: rgb(226, 186, 239);
+}
