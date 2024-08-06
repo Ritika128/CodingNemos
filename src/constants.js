@@ -1,7 +1,7 @@
 export const NFTContractAddress =
-  "0xDfE1191f0923d8B0D52f9Ac31f65df77D2228a7a";
+  "YOUR_NFT_CONTRACT_ADDRESS";
 export const MarketplaceContractAddress =
-  "0x803FD0395e12Ab45092F6f085FB815A0dd74687E";
+  "YOUR_MARKETPLACE_CONTRACT_ADDRESS";
 
 export const NFTContractABI = [
 	{
